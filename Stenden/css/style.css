@@ -1,0 +1,67 @@
+body{
+	font-family: "Times New Roman", Georgia, Serif;
+/*	font-size: 12px;*/
+}
+
+#header{
+	width: 100%;
+	border-bottom: 15px solid #25bce9;
+}
+
+#headercontent{
+	margin: 0;
+	width: 100%;
+	height: 130px;
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#loggen{
+	float: right;
+    position: absolute;
+    display: inline;
+    right: 80px;
+    top: 80px;
+}
+
+#mainmenu{
+	float: right;
+    position: absolute;
+    display: inline;
+    right: 45%;
+    top: 80px;
+}
+
+#header ul li{
+	display: inline;
+}
+
+/*Body*/
+
+#content{
+	margin: 0 auto;
+	width: 90%;
+	padding-left: 1.25em;
+ 	padding-right: 1.25em;
+ 	padding-top: 1.25em;	
+}
+
+#article{
+	border: 1px solid black;
+	margin-bottom: 5%;
+}
+
+#article img{
+	margin: 15px;
+	margin-top: 0px;
+    float: left;
+}
+
+/*Einde body*/
+
+/*Hardcoding*/
+
+#profile{
+	height: 315px;
+}
